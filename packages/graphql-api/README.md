@@ -26,6 +26,9 @@ API_KEY='foo' yarn nx serve graphql-api
 This should create a local server at http://localhost:3333
 
 ## Implementation
+### Serverless
+This has been built as a single serverless function which can be deployed to AWS Lambda. The `serverless.yml` could equally be switched out with any other form of infrastructure as code, such as Cloudformation, Terraform or CDK.
+
 ### GraphQL
 This is my first time using GraphQL (which seems quite nice!), and so there are no doubt some aspects of the implementation which could be improved.
 
