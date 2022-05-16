@@ -20,7 +20,7 @@ yarn nx test harvard-art-ui
 
 #### Serve
 ```
-API_KEY='foo' yarn nx serve harvard-art-ui
+yarn nx serve harvard-art-ui
 ```
 This should create a local server at http://localhost:4200
 
